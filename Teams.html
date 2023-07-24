@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" manifest="luuwafc.appcache">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Teams.css" type="text/css" rel="stylesheet" />
+    <title>LUUWAFC Teams</title>
+    <link rel="shortcut icon" type="image/jpg" href="logo.jpg"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="Teams.js"></script>
+
+  </head>
+  <body>
+    <img onclick="toTheTop()" id="toTopBtn" class="topBtn" src="arrow.png" alt="toTop">
+
+    <div class="navbar">
+      <img class="logo" alt="LogoImg" src="logo.jpg">
+      <div class="nav-right">
+        <a href="Homepage.html">Home</a>
+        <a class="active" href="Teams.html">Teams</a>
+        <a href="Committee.html">Committee</a>
+        <a href="Events.html">Events</a>
+        <a href="Facilities.html">Facilities</a>
+        <a href="JoinUs.html">Join Us!</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Login.html">Login</a>
+
+        <br>
+        <div class="nav-right-bottom">
+          <a id="fblink" class="fa fa-facebook"></a>
+          <a id="twttierlink" class="fa fa-twitter"></a>
+          <a id="instalink" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="teams">
+      <h1 class="MainTitle">Teams</h1>
+      <h2>LUUWAFC consists of:</h2>
+      <ul>
+        <li>3 BUCS Teams</li>
+        <li>Sunday League Team</li>
+        <li>Development Team</li>
+      </ul>
+      <p>If you're wanting to join a team or are wanting to move teams within LUUWAFC, please fill out the form at the bottom of the page.
+        <button onclick="toForm()" id="toFormBtn" class="formBtn">Jump to form</button>
+      </p>
+      <p>Scroll to explore our different teams!</p>
+      <br>
+      <a href="Facilities.html" class="facilities">View our facilities</a>
+    </div>
+
+    <div class="bucs-teams">
+      <h2 class="heading">Bucs Teams</h2>
+      <p>Our BUCS teams play in inter-university games in the BUCS Northern Leagues.</p>
+      <div class="teamlinks">
+        <img src="1s1.jpg" alt="1sImg" class="image">
+        <div class="middle">
+          <div class="link">
+            <h2>1s</h2>
+            <a href="1stTeam.html">See Team</a>
+          </div>
+        </div>
+      </div>
+      <div class="teamlinks">
+        <img src="2s2.jpg" alt="2sImg" class="image">
+        <div class="middle">
+          <div class="link">
+            <h2>2s</h2>
+            <a href="2ndTeam.html">See Team</a>
+          </div>
+        </div>
+      </div>
+      <div class="teamlinks">
+        <img src="3s1.jpg" alt="3sImg" class="image">
+        <div class="middle">
+          <div class="link">
+            <h2>3s</h2>
+            <a href="3rdTeam.html">See Team</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sunday-team">
+      <h2 class="heading">Sunday League Team</h2>
+      <p>Our 4th Team plays in the every Sunday in the Leeds Northern League.</p>
+      <div class="teamlinks">
+        <img src="4s1.jpg" alt="4sImg" class="image">
+        <div class="middle">
+          <div class="link">
+            <h2>4s</h2>
+            <a href="4thTeam.html">See Team</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="devs-team">
+      <h2 class="heading">Development</h2>
+      <p>This team is for anyone who would like to improve their football skill or is wanting to get into the sport.</p>
+      <div class="teamlinks">
+        <img src="Devs.jpg" alt="DevsImg" class="image">
+        <div class="middle">
+          <div class="link">
+            <h2>Devs</h2>
+            <a href="Devs.html">See Team</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form id="formtop" name="teamform" action="Submitted.html" method="post">
+      <fieldset>
+        <legend>
+          <b>Team Joining Form:</b>
+        </legend>
+        <label>Name:
+          <br>
+          <input type="text" id="name" name="name" placeholder="Your name..." />
+        </label>
+        <p id="nameInv"></p>
+        <label>Email:
+          <br>
+          <input type="email" id="email" name="email" placeholder="Your email..."/>
+        </label>
+        <p id="emailInv"></p>
+        <label>Experience:
+          <br>
+          <textarea name="message" placeholder="Your message..."></textarea>
+        </label>
+        <p id="messageInv"></p>
+        <label>Team you're thinking of joining:
+          <br>
+          <textarea name="message2" placeholder="Your message..."></textarea>
+        </label>
+        <p id="messageInv2"></p>
+
+      </fieldset>
+      <button type="submit" id="submit">SUBMIT</button>
+    </form>
+
+    <footer>
+      <div class="footer">
+        <a href="Homepage.html">
+          <img class="logo" alt="LogoImg" src="logo.jpg">
+        </a>
+        <div class="footer-right">
+          <div class="ft-row">
+            <div class="ft-column">
+              <h1>Contact Us:</h1>
+              <a href="Contact.html">Contact</a>
+              <br>
+              <br>
+              <a href="https://www.facebook.com/luuwafc/">Facebook</a>
+              <br>
+              <br>
+              <a href="https://twitter.com/luuwafc">Twitter</a>
+              <br>
+              <br>
+              <a href="https://www.instagram.com/luuwafc/?hl=en">Instagram</a>
+              <br>
+              <br>
+              <a href="https://engage.luu.org.uk/groups/99X/association-football-w">LUU</a>
+              <br>
+              <br>
+            </div>
+            <div class="ft-column">
+              <h1>Quick Links:</h1>
+              <a href="Homepage.html">Home</a>
+              <br>
+              <br>
+              <a href="Teams.html">Teams</a>
+              <br>
+              <br>
+              <a href="Committee.html">Committee</a>
+              <br>
+              <br>
+              <a href="Events.html">Events</a>
+              <br>
+              <br>
+              <a href="JoinUs.html">Join Us!</a>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>

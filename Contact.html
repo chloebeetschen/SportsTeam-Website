@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" manifest="luuwafc.appcache">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Contact.css" type="text/css" rel="stylesheet" />
+    <title>LUUWAFC Contact</title>
+    <link rel="shortcut icon" type="image/jpg" href="logo.jpg"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="Contact.js"></script>
+
+  </head>
+  <body>
+    <img onclick="toTheTop()" id="toTopBtn" class="topBtn" src="arrow.png" alt="toTop">
+
+    <div class="navbar">
+      <img class="logo" alt="LogoImg" src="logo.jpg">
+      <div class="nav-right">
+        <a href="Homepage.html">Home</a>
+        <a href="Teams.html">Teams</a>
+        <a href="Committee.html">Committee</a>
+        <a href="Events.html">Events</a>
+        <a href="Facilities.html">Facilities</a>
+        <a href="JoinUs.html">Join Us!</a>
+        <a class="active" href="Contact.html">Contact</a>
+        <a href="Login.html">Login</a>
+
+        <br>
+        <div class="nav-right-bottom">
+          <a id="fblink" class="fa fa-facebook"></a>
+          <a id="twttierlink" class="fa fa-twitter"></a>
+          <a id="instalink" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header">
+      <h1 class="MainTitle">Contact Us:</h1>
+    </div>
+
+    <div class="contacts">
+      <div class="row">
+        <div class="column">
+          <img src="group3.jpeg" alt="GroupImg">
+        </div>
+        <div class="column">
+          <p>If you have any questions or queries about the club or any of our teams, please feel free to contact using one of the links below:</p>
+          <a id="fb" class="fab fab-facebook">FACEBOOK</a>
+          <a id="insta" class="fab fab-insta">INSTAGRAM</a>
+          <a id="twitter" class="fab fab-twitter">TWITTER</a>
+          <a id="luu" class="fab fab-luu">LUU</a>
+          <a id="mail" class="fab fab-email">LUUWAFC1@GMAIL.COM</a>
+
+          <p>Or fill in the form below.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <form name="contactForm" action="Submitted.html" method="post">
+      <fieldset>
+        <legend>
+          <b>Contact form:</b>
+        </legend>
+        <label>Name:
+          <br>
+          <input type="text" name="name" placeholder="Your name..." />
+        </label>
+        <p id="nameInv"></p>
+
+        <label>Email:
+          <br>
+          <input type="email" name="email" placeholder="Your email..."/>
+        </label>
+        <p id="emailInv"></p>
+
+        <label>Are you a current LUUWAFC member?
+          <input type="checkbox" />
+        </label>
+        <br>
+        <br>
+        <label>Comment:</label>
+        <br>
+        <textarea name="message" placeholder="Your message..."></textarea>
+        <p id="messageInv"></p>
+
+      </fieldset>
+      <br>
+      <input id="formSubmit" class="submitForm" type="submit" value="Submit" />
+
+    </form>
+
+
+    <footer>
+      <div class="footer">
+        <a href="Homepage.html">
+          <img class="logo" alt="LogoImg" src="logo.jpg">
+        </a>
+        <div class="footer-right">
+          <div class="ft-row">
+            <div class="ft-column">
+              <h1>Contact Us:</h1>
+              <a href="Contact.html">Contact</a>
+              <br>
+              <br>
+              <a href="https://www.facebook.com/luuwafc/">Facebook</a>
+              <br>
+              <br>
+              <a href="https://twitter.com/luuwafc">Twitter</a>
+              <br>
+              <br>
+              <a href="https://www.instagram.com/luuwafc/?hl=en">Instagram</a>
+              <br>
+              <br>
+              <a href="https://engage.luu.org.uk/groups/99X/association-football-w">LUU</a>
+              <br>
+              <br>
+            </div>
+            <div class="ft-column">
+              <h1>Quick Links:</h1>
+              <a href="Homepage.html">Home</a>
+              <br>
+              <br>
+              <a href="Teams.html">Teams</a>
+              <br>
+              <br>
+              <a href="Committee.html">Committee</a>
+              <br>
+              <br>
+              <a href="Events.html">Events</a>
+              <br>
+              <br>
+              <a href="JoinUs.html">Join Us!</a>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>

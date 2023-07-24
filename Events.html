@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" manifest="luuwafc.appcache">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Events.css" type="text/css" rel="stylesheet" />
+    <title>LUUWAFC Events</title>
+    <link rel="shortcut icon" type="image/jpg" href="logo.jpg"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="Events.js"></script>
+
+
+  </head>
+  <body>
+    <img onclick="toTheTop()" id="toTopBtn" class="topBtn" src="arrow.png" alt="toTop">
+
+    <div class="navbar">
+      <img class="logo" alt="LogoImg" src="logo.jpg">
+      <div class="nav-right">
+        <a href="Homepage.html">Home</a>
+        <a href="Teams.html">Teams</a>
+        <a href="Committee.html">Committee</a>
+        <a class="active" href="Events.html">Events</a>
+        <a href="Facilities.html">Facilities</a>
+        <a href="JoinUs.html">Join Us!</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Login.html">Login</a>
+
+        <br>
+        <div class="nav-right-bottom">
+          <a id="fblink" class="fa fa-facebook"></a>
+          <a id="twttierlink" class="fa fa-twitter"></a>
+          <a id="instalink" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header">
+      <h1 class="MainTitle">Events</h1>
+    </div>
+
+    <div class="container">
+      <h2>Upcoming Events:</h2>
+      <p>Please visit our Facebook page for more information on the events</p>
+      <div class="row">
+        <div class="column">
+          <div class="events">
+            <img src="socials.jpg" alt="SocialsImg">
+            <h3>Event:</h3>
+            <p>Wednesday Socials</p>
+            <p>(Best night of the week)</p>
+            <p>Date: <br>27/04/2024</p>
+            <p>Location:<br>Pres TBD<br>Popworld<br>Revolution<br>Mischief</p>
+            <p>More details can be found on the facebook page!</p>
+            <a id="fb2">Facbook Link</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <h1 class="timer">Time to go:</h1>
+            <h1 id="counter1" class="timer">...</h1>
+            <img src="varsity.png" alt="VaristyImg">
+            <h3>Event:</h3>
+            <p>Varsity</p>
+            <p>Leeds vs Beckett</p>
+            <p>Date: <br>04/05/2026</p>
+            <p>Location: <br>Weetwood Sports Park<br>The University of Leeds<br>LS16 5AU</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <h1 class="timer">Time to go:</h1>
+            <h1 id="counter2" class="timer">...</h1>
+            <img src="committee1.jpg" alt="AGMImg">
+            <h3>Event:</h3>
+            <p>AGM</p>
+            <p>The time has come to elect our new committee for the 2022/23 year!</p>
+            <p>Date: <br>05/05/2022</p>
+            <p>Location: <br>LUU</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <h1 class="timer">Time to go:</h1>
+            <h1 id="counter3" class="timer">...</h1>
+            <img class="alumnimg" src="alumni.jpg" alt="AlumniBall">
+            <h3>Event:</h3>
+            <p>Alumni Day</p>
+            <p>Get ready for one of the biggest events on the LUUWAFC Callander!</p>
+            <p>Match, BBQ & Ball!</p>
+            <p>Date: <br>04/06/2028</p>
+            <p>Location: TBD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+      <h2>Charity Events:</h2>
+      <p>At LUUWAFC we are dedicated to helping make change and becoming connected and raising money with charities that helo our local and wider community.</p>
+      <p>If you have any questions about any of our charity events, or if you would like to open the club up to helping a new charity, please contact our Community & Welfare Secretary: @Beth Burwood.</p>
+      <p>Click on the charity buttons in each event to learn more about them!</p>
+      <div class="row">
+        <div class="column">
+          <div class="events">
+            <img src="cgn.jpg" alt="CharityImg">
+            <h3>Event:</h3>
+            <p>Charity Games Night</p>
+            <p>We're raising money for our partner charity the James Burke Foundation</p>
+            <p>Date: <br>20/11/2021</p>
+            <p>Location: <br>Various houses in Hyde Park</p>
+            <a id="char1">Charity</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <img src="movember.jpg" alt="CharityImg2">
+            <h3>Event:</h3>
+            <p>Movember</p>
+            <p>Over the month, we will go head to head in a bid to move the greatest combined distance in our teams.</p>
+            <p>Date: <br>November 2021</p>
+            <a id="char2">Charity</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <img src="rl.jpg" alt="CharityImg3">
+            <h3>Event:</h3>
+            <p>Rainbow Laces Day</p>
+            <p>All teams have games on the 8th so it would be great to see everybody with these rainbow laces to brighten up their boots! 🌈</p>
+            <p>Date: <br>8/12/2021</p>
+            <a id="char3">Charity</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <img src="srtrc.jpg" alt="CharityImg4">
+            <h3>Event:</h3>
+            <p>Show Racism The Red Card - Wear Red</p>
+            <p>At training on please wear as much red as you can and donate £2 to Show Racism The Red Card.</p>
+            <p>Date: <br>19/10/21</p>
+            <a id="char4">Charity</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+      <h2>Past Events:</h2>
+      <div class="row">
+        <div class="column">
+          <div class="events">
+            <img src="upcoming.jpg" alt="ChristieCup">
+            <h3>Event:</h3>
+            <p>Christie Championships</p>
+            <p>Uni of Leeds vs Uni of Liverpool vs Uni of Manchester</p>
+            <p>Date: <br>16/03/2022</p>
+            <p>Location: <br>Weetwood Sports Park<br>The University of Leeds<br>LS16 5AU</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <img src="group3.jpeg" alt="ClubPhotosImg">
+            <h3>Event:</h3>
+            <p>Club Photos</p>
+            <p>Date: <br>24/03/2022</p>
+            <p>Location: <br>The Edge<br>University of Leeds<br>Willow Terrace Road<br>LS2 9JT</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <img src="otley.png" alt="OtleyRunImg">
+            <h3>Event:</h3>
+            <p>Otley Run</p>
+            <p>Date: <br>22/01/2022</p>
+            <p>Location: <br>Normal Otley route<br>Starting at Woodies </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <img src="img5.jpg" alt="ChristmasMealImg">
+            <h3>Event:</h3>
+            <p>Christmas Meal</p>
+            <p>Date: <br>02/12/2021</p>
+            <p>Location: <br>Leeds University<br>Lifton Pl<br>Woodhouse<br>LS2 9JZ</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="events">
+            <img src="group2.jpeg" alt="LionessImg">
+            <h3>Event:</h3>
+            <p>Lioness Football Game</p>
+            <p>England vs Latvia World Cup Qualifier</p>
+            <p>Date: <br>30/11/2021</p>
+            <p>Location: <br>Parkinson Steps<br>University of Leeds<br>Woodhouse<br>LS2 9JT</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <img src="gni.jpg" alt="MealImg">
+            <h3>Event:</h3>
+            <p>Girls Night In</p>
+            <p>LUUWAFC Family Meal</p>
+            <p>Date: <br>27/10/2021</p>
+            <p>Location: <br>Nazams<br>201 Woodhouse St<br>Woodhouse<br>Leeds<br>LS6 2NY</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="events">
+            <img src="trials.jpg" alt="TrialsImg">
+            <h3>Event:</h3>
+            <p>Trials</p>
+            <p>Date: <br>24/09/2021</p>
+            <p>Location: <br>Weetwood Sports Park<br>The University of Leeds<br>LS16 5AU</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <footer>
+      <div class="footer">
+        <a href="Homepage.html">
+          <img class="logo" alt="LogoImg" src="logo.jpg">
+        </a>
+        <div class="footer-right">
+          <div class="ft-row">
+            <div class="ft-column">
+              <h1>Contact Us:</h1>
+              <a href="Contact.html">Contact</a>
+              <br>
+              <br>
+              <a href="https://www.facebook.com/luuwafc/">Facebook</a>
+              <br>
+              <br>
+              <a href="https://twitter.com/luuwafc">Twitter</a>
+              <br>
+              <br>
+              <a href="https://www.instagram.com/luuwafc/?hl=en">Instagram</a>
+              <br>
+              <br>
+              <a href="https://engage.luu.org.uk/groups/99X/association-football-w">LUU</a>
+              <br>
+              <br>
+            </div>
+            <div class="ft-column">
+              <h1>Quick Links:</h1>
+              <a href="Homepage.html">Home</a>
+              <br>
+              <br>
+              <a href="Teams.html">Teams</a>
+              <br>
+              <br>
+              <a href="Committee.html">Committee</a>
+              <br>
+              <br>
+              <a href="Events.html">Events</a>
+              <br>
+              <br>
+              <a href="JoinUs.html">Join Us!</a>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>

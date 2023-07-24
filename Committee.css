@@ -1,0 +1,399 @@
+.navbar {
+  overflow: hidden;
+  top: 0;
+  transition: top 0.3s;
+  background: #d5e7e1;
+
+}
+.navbar img {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  background: #d5e7e1;
+  max-width: 10%;
+  border-radius: 50%;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 1.7vw;
+  background: #d5e7e1;
+}
+
+.navbar a:hover {
+  background-color: #95cebb;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #e7d8d5;
+  color: black;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color: #3B5998;
+  width: 20px;
+  border-radius: 50%;
+
+}
+
+.fa-twitter {
+  background: white;
+  color: #55ACEE;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: white;
+  color: #125688;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.nav-right {
+  float: right;
+  max-width: 85%;
+  font-family: 'Courier New', monospace;
+}
+.nav-right-bottom {
+  float: right;
+  font-family: 'Courier New', monospace;
+  padding: 10px;
+}
+
+.header {
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  color: black;
+  font-size: 1.7vw;
+}
+
+.topBtn {
+  z-index: 1;
+  position: fixed;
+  bottom: 12px;
+  right: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  max-width: 3%;
+}
+
+.committee {
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  color: black;
+  vertical-align: middle;
+  max-width: 100%;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+  position: relative;
+  word-wrap: break-word;
+
+}
+
+.committee h3 {
+  font-size: 2vw;
+}
+.committee h4{
+  font-size: 2vw;
+}
+
+
+.committee p {
+  width:100%;
+  margin:0;
+  padding:0;
+  font-size: 2vw;
+
+}
+
+.container {
+  padding: 0 9px;
+}
+
+.member1 {
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  color: black;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+  max-width: 70%;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.member {
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+  max-width: 70%;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.member2 {
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  color: white;
+  vertical-align: middle;
+  max-width: 55%;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+
+}
+
+.member2 img {
+  visibility: hidden;
+}
+.teamlink2 img {
+  visibility: hidden;
+  max-width: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+.teamlinks2 {
+  position: relative;
+  padding: 15px;
+  width: 80%;
+  vertical-align: middle;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.teamlinks img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.teamlinks {
+  position: relative;
+  padding: 15px;
+  width: 80%;
+  vertical-align: middle;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  width:100%;
+  margin:0;
+  padding:0;
+  display:inline-flex;
+  font-size: 2vw;
+
+}
+
+.teamlinks:hover .image {
+  opacity: 0.3;
+}
+
+.teamlinks:hover .middle {
+  opacity: 1;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+}
+
+.committee1 {
+  font-family: 'Courier New', monospace;
+  color: black;
+  vertical-align: middle;
+  max-width: 100%;
+  text-align: center;
+  padding: 15px;
+  margin-right:auto;
+  margin-left:auto;
+  position: relative;
+}
+
+.committee1 h3 {
+  font-size: 2vw;
+}
+
+.committee1 p {
+  width:100%;
+  margin:0;
+  padding:0;
+  font-size: 2vw;
+}
+
+.committee2 {
+  font-family: 'Courier New', monospace;
+  color: black;
+  vertical-align: middle;
+  max-width: 100%;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 15px;
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+}
+
+.committee2 h3 {
+  font-size: 2vw;
+}
+
+.committee2 p {
+  width:100%;
+  margin:0;
+  padding:0;
+  font-size: 2vw;
+}
+
+.committee3 {
+  font-family: 'Courier New', monospace;
+  color: black;
+  vertical-align: middle;
+  max-width: 100%;
+  text-align: center;
+  padding: 15px;
+  margin-left:auto;
+  position: relative;
+}
+
+.committee3 h3 {
+  font-size: 2vw;
+}
+
+.committee3 p {
+  width:100%;
+  margin:0;
+  padding:0;
+  font-size: 2vw;
+}
+
+.committee4 {
+  font-family: 'Courier New', monospace;
+  color: black;
+  vertical-align: middle;
+  max-width: 100%;
+  text-align: center;
+  padding: 15px;
+  margin-left:auto;
+  position: relative;
+}
+
+.committee4 h3 {
+  font-size: 2vw;
+}
+
+.committee4 p {
+  width:100%;
+  margin:0;
+  padding:0;
+  font-size: 2vw;
+}
+
+.ws {
+  color: white;
+}
+
+.committeeimg {
+  display: block;
+  padding: 15px;
+  width: 50%;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.footer {
+  overflow: hidden;
+  top: 0;
+  transition: top 0.3s;
+  background: #d5e7e1;
+
+}
+.footer img {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  background: #d5e7e1;
+  max-width: 13%;
+
+}
+
+.ft-column {
+  float: right;
+  max-width: 15%;
+  font-family: 'Courier New', monospace;
+  font-size: 1.5vw;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.ft-column h1{
+  font-size: 1.6vw;
+}

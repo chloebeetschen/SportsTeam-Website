@@ -1,0 +1,272 @@
+.navbar {
+  overflow: hidden;
+  top: 0;
+  transition: top 0.3s;
+  background: #d5e7e1;
+
+}
+.navbar img {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  background: #d5e7e1;
+  max-width: 10%;
+  border-radius: 50%;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 1.7vw;
+  background: #d5e7e1;
+}
+
+.navbar a:hover {
+  background-color: #95cebb;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #e7d8d5;
+  color: black;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color: #3B5998;
+  width: 20px;
+  border-radius: 50%;
+
+}
+
+.fa-twitter {
+  background: white;
+  color: #55ACEE;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: white;
+  color: #125688;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.nav-right {
+  float: right;
+  font-family: 'Courier New', monospace;
+  max-width: 85%;
+}
+.nav-right-bottom {
+  float: right;
+  font-family: 'Courier New', monospace;
+  padding: 10px;
+}
+
+.topBtn {
+  z-index: 1;
+  position: fixed;
+  bottom: 12px;
+  right: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  max-width: 3%;
+}
+
+.header {
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  color: black;
+  font-size: 3vw;
+  position: relative;
+}
+
+.info {
+  overflow: hidden;
+  color: black;
+  font-family: 'Courier New', monospace;
+  padding-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #dfe2e2;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+
+.teams {
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  color: black;
+  font-size: 2vw;
+  position: relative;
+}
+
+.teams h2 {
+  font-size: 2vw;
+}
+
+.teams a {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6vw;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #3b5998;
+
+}
+
+.facilities {
+  background-color: #144434;
+}
+
+.captain img {
+  border-radius: 50%;
+  max-width: 50%;
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.tables {
+  overflow: hidden;
+  color: black;
+  font-family: 'Courier New', monospace;
+  padding-bottom: 15px;
+  font-size: 1.4vw;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 10px;
+}
+
+.matches {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid;
+
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid;
+  color: black;
+
+}
+
+tr:nth-child(even) {
+  background-color: #8aa29a;
+}
+
+.gallery{
+  width: 80%;
+  margin-right:auto;
+  margin-left:auto;
+}
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column3 {
+  flex: 33.33%;
+  max-width: 33%;
+  padding: 1px;
+  margin: auto;
+}
+
+.column3 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  overflow: hidden;
+  top: 0;
+  transition: top 0.3s;
+  background: #d5e7e1;
+
+}
+.footer img {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  background: #d5e7e1;
+  max-width: 13%;
+
+}
+
+.ft-column {
+  float: right;
+  max-width: 15%;
+  font-family: 'Courier New', monospace;
+  font-size: 1.5vw;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.ft-column h1{
+  font-size: 1.6vw;
+}
